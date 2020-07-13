@@ -3806,6 +3806,11 @@ input, select, textarea {
 				max-width: none;
 			}
 
+			#banner p {
+				font-size: 10px;
+				text-transform: uppercase;
+			}
+
 		}
 
 /* Main */
@@ -3877,6 +3882,10 @@ input, select, textarea {
 				#main > header h2 {
 					font-size: 1.25em;
 					margin: 0 0 1em 0;
+				}
+
+				#main > header p {
+					font-size: 10px;
 				}
 
 		}
@@ -4010,4 +4019,8 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+
+	body.is-mobile.landing #main > header p {
+		font-size: 10px;
 	}
