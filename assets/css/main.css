@@ -3409,7 +3409,6 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
 			width: 7em;
 		}
 
@@ -3807,7 +3806,8 @@ input, select, textarea {
 			}
 
 			#banner p {
-				font-size: 10px;
+				font-size: 14px;
+				text-align: left;
 				text-transform: uppercase;
 			}
 
@@ -4022,5 +4022,6 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #main > header p {
-		font-size: 10px;
+		font-size: 12px;
+		text-align: left;
 	}
