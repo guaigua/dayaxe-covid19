@@ -72,14 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
-a:link, a:visited, a:active {
-    text-decoration:none;
-}
+/* a stile for all the a elements in the document*/
+a{text-decoration:node;}
 
-svg|a text {
-	
-	text-decoration: none;
-  }
+/*Styling only the a elements in the svg*/
+a[xlink|href]{text-decoration:none;}
+
 
 /* Basic */
 
