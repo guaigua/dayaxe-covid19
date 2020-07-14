@@ -72,6 +72,15 @@ input, select, textarea {
 	appearance: none;
 }
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+svg|a text {
+	
+	text-decoration: none;
+  }
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2792,7 +2801,10 @@ input, select, textarea {
 		.wrapper > .inner {
 			width: 60em;
 			margin: 0 auto;
+			
 		}
+
+		
 
 			@media screen and (max-width: 1280px) {
 
@@ -3806,8 +3818,8 @@ input, select, textarea {
 			}
 
 			#banner p {
-				font-size: 14px;
-				text-align: left;
+				font-size: 12px;
+				text-align: left!important;
 				text-transform: uppercase;
 			}
 
@@ -4021,7 +4033,7 @@ input, select, textarea {
 		background-color: #1d242a;
 	}
 
-	body.is-mobile.landing #main > header p {
-		font-size: 12px;
+	body.is-mobile.landing #banner > header p {
+		font-size: 10px;
 		text-align: left;
 	}
